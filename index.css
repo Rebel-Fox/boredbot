@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A7F3D0;
+    background-size: cover;
+}
+
+
+h1{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 2rem;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+button{
+    width:200px;
+    height:200px;
+    border: none;
+    background-color:#E11D48;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+button:hover{
+    background-color:#9F1239;
+    transform: scale(0.9);
+}
+
+.container{
+    width: 500px;
+    text-align: center;
+    margin:0 auto;
+    background-color: #10B981;
+    padding:0 1rem 1rem;
+    border-radius: 10px;
+}
+
+.new-activity{
+    border: 5px solid goldenrod;
+    transform: scale(1.1);
+}
+
